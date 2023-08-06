@@ -5,6 +5,8 @@ import com.sina.roomrx.model.DomainModel;
 
 import java.util.List;
 
+import javax.inject.Inject;
+
 import io.reactivex.rxjava3.core.Completable;
 import io.reactivex.rxjava3.core.Flowable;
 

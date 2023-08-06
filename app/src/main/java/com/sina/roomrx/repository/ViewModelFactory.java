@@ -3,6 +3,10 @@ package com.sina.roomrx.repository;
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
+import com.sina.roomrx.ui.DomainViewModel;
+
+import javax.inject.Inject;
+
 public class ViewModelFactory implements ViewModelProvider.Factory {
     private DomainRepository domainRepository;
 

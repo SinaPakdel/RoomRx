@@ -47,5 +47,12 @@ dependencies {
     annotationProcessor("androidx.room:room-compiler:2.5.2")
     implementation("androidx.room:room-rxjava3:2.5.2")
 
+    implementation("com.google.dagger:dagger-android:2.20")
+    implementation("com.google.dagger:dagger-android-support:2.20")
+    annotationProcessor("com.google.dagger:dagger-android-processor:2.20")
+    annotationProcessor("com.google.dagger:dagger-compiler:2.46.1")
+
     implementation("io.reactivex.rxjava3:rxandroid:3.0.0")
+
+
 }

@@ -1,10 +1,13 @@
-package com.sina.roomrx.repository;
+package com.sina.roomrx.ui;
 
 import androidx.lifecycle.ViewModel;
 
 import com.sina.roomrx.model.DomainModel;
+import com.sina.roomrx.repository.DomainRepository;
 
 import java.util.List;
+
+import javax.inject.Inject;
 
 import io.reactivex.rxjava3.core.Completable;
 import io.reactivex.rxjava3.core.Flowable;

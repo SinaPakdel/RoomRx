@@ -1,4 +1,4 @@
-package com.sina.roomrx.repository;
+package com.sina.roomrx.di;
 
 import android.app.Application;
 
@@ -6,6 +6,13 @@ import androidx.room.Room;
 
 import com.sina.roomrx.db.DomainDao;
 import com.sina.roomrx.db.DomainDatabase;
+import com.sina.roomrx.repository.DomainRepository;
+import com.sina.roomrx.repository.ViewModelFactory;
+
+import javax.inject.Singleton;
+
+import dagger.Module;
+import dagger.Provides;
 
 @Module
 public class ApplicationModule {

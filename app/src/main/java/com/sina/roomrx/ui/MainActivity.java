@@ -1,4 +1,4 @@
-package com.sina.roomrx;
+package com.sina.roomrx.ui;
 
 import static com.sina.roomrx.R.string.all_domains_deleted;
 import static com.sina.roomrx.R.string.deleted;
@@ -14,6 +14,7 @@ import androidx.fragment.app.FragmentManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.room.Room;
 
+import com.sina.roomrx.R;
 import com.sina.roomrx.adapter.DomainAdapter;
 import com.sina.roomrx.databinding.ActivityMainBinding;
 import com.sina.roomrx.db.DomainDao;
